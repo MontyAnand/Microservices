@@ -1,0 +1,5 @@
+start cmd -k "cd /d Engine && pip install asyncio && python server.py"
+start cmd -k "cd Engine && pip install asyncio && python server1.py"
+start cmd -k "cd Engine && pip install asyncio && python server2.py"
+start cmd -k "cd Simulator && npm i && node MathematicalSimulator.js"
+start cmd -k "cd LoadBalancer && npm i && node server.js"
